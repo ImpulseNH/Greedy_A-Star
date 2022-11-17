@@ -21,6 +21,8 @@ using namespace std;
 using namespace cpmp;
 
 int lb_counter=0;
+
+//DEJAR DENTRO DEL LAYOUT
     
 class Nodo
 {
@@ -37,7 +39,12 @@ class Nodo
         double score = 0;
         int ub = 100;
         
+
+    /*************************************************************/
+    ///////////////////////BOB EL CONSTRUCTOR//////////////////////
+    /*************************************************************/
     
+    //HACER UN DESTRUCTOR
         Nodo(Layout * l, int lvl, Nodo * padre=NULL) : actual(new cpmp::Layout(*l)), 
         greedy_child(false), nivel(lvl), padre(padre)
         {
@@ -53,6 +60,8 @@ class Nodo
         }
 
         Nodo* next_child(int U, pair <int,int> default_action = make_pair(-1,-1) ){
+            //cout << "** next child ("<< default_action.first << "," << default_action.second << ")**" << endl;
+            //cout << n_children << endl;
             if(n_children == 0){
                 int stacks = actual->stacks.size();
                 int i,j;
@@ -180,10 +189,6 @@ class Nodo
         
 };
 
-/*************************************************************/
-//////////////Para comparar nodos según lb/////////////////////
-/*************************************************************/
-
 class compare_nodes2
 {
 
@@ -204,9 +209,7 @@ public:
     if (lhs->score >= rhs->score) return (true);
     else return (false);
   }
-};
-
-/*************************************************************/
+}; 
 
 class Tree
 {
@@ -224,8 +227,7 @@ class Tree
     /*************************************************************/
     ///////////////////////Funciones///////////////////////////////
     /*************************************************************/
-
-    //Retorna la cantidad total de movimientos realizados
+    //DICE LOS PASOS TOTALES
     static int greedy(Layout * L, int u=1000)
         {
             int steps;
@@ -243,9 +245,25 @@ class Tree
     
     /*************************************************************/
 
+    float eva(Nodo * n,int lower)
+        {
+            Layout * L = n->actual;
+            //int l = (L->lb)-lower;
+            //return l;
+            return L->lb;
+        }
+
+    // comparison, not case sensitive.
+    static bool compare_nodes (const Nodo* n1, const Nodo* n2)
+    {
+        return ( (*n1).score < (*n2).score );
+    }
+
+
     Tree(Layout * l, int lvl)
     {
         search2(l, lvl);
+        //cout << "FINISH HIM\n";
     }
 
     //A* con heuristica admisible lb2
@@ -259,19 +277,17 @@ class Tree
         root->actual->lb2(); lb_counter++;
         lbs[root->actual->lb]=1; 
         
-        //Cola con prioridad para almacenar nodos
+        //Para almacenar nodos
         priority_queue<Nodo*, vector<Nodo*>, compare_nodes2> S;
         S.push(root);
             
         int L = root->actual->lb;
         int U = greedy(root->actual);
         cout << "Greedy cost: " << U << endl;
-        
-        //Cantidad máxima de nodos creados
-        int total_nodes = 0;
-        //Contador de iteraciones
-        int iter = 0;
 
+        int total_nodes = 0;
+        int iter = 0;
+        
         while (S.size()!=0)
         {
             //Se obtiene el elemento top del stack
@@ -314,63 +330,20 @@ class Tree
                 return;
             }
 
-            /*************************************************************/
-            //////////////////IMPLEMENTACIÓN DE PROPUESTA//////////////////
-            /*************************************************************/
-
-            //Se crea la estructura de datos para los hijos y se obtienen estos
             list <Nodo*> children;
             temp->get_children(children, U);
-            delete(temp);
-            if (children.size()==0) continue;
 
-            //Se guardan los hijos generados
             for (Nodo* aux:children){
                 S.push(aux);
                 lbs[aux->actual->lb]++;
             }
 
-            //Se obtiene el mejor hijo
-            Nodo* best_child = children.front();
             children.clear();
-
-            //Se crea la lista de acciones
-            list< pair<int, pair < int, int> > > actions;
-
-            //Búsqueda Greedy
-            while (true)
-            {
-                if (best_child->actual->unsorted_elements + best_child->actual->steps >= U) break;
-
-                //Si se llegó a un estado final
-                if(best_child->actual->unsorted_stacks==0)
-                {
-                    u = best_child->actual->steps;
-                    if (u < U) U = u;
-                    delete(best_child);
-                    break;
-                }
-
-                Layout aux = *best_child->actual;
-                Layout *layout = new Layout(aux);
-
-                greedy_eval(*layout, actions);
-                best_child->get_greedy_children(children, U, actions);
-
-                best_child = children.front(); children.pop_front();
-
-                // ---------- PARA GUARDAR EN LA COLA CON PRIORIDAD LOS HIJOS QUE GENERE LA BÚSQUEDA GREEDY ----------
-                //for (Nodo* aux:children){
-                //    S.push(aux);
-                //    lbs[aux->actual->lb]++;
-                //}
-                children.clear();
-                actions.clear();
-            }
+            delete(temp);
 
             //actualizar el lower bound
             L = lbs.begin()->first;
-            //Aumentar contador de iteraciones
+            //Aumentar el contador de iteraciones
             iter++;
         }
 
@@ -384,8 +357,8 @@ class Tree
 
 
 int main(int argc, char * argv[]){
-    printf("------- A* Greedy -------\n");
-    cout << "Instance: " <<  argv[2] << endl;
+    printf("------- A* -------\n");
+    cout << "Instance: " << argv[2] << endl;
     Layout::H = atoi (argv[1]);
     Layout L(argv[2]);
 
@@ -395,5 +368,6 @@ int main(int argc, char * argv[]){
     Tree::search2(nuevo,0);
 
     cout << "Time elapsed: " << (float( clock () - begin_tree ) /  CLOCKS_PER_SEC) << "\n" << endl;
+    //delete arbolTest;
     return 0;
 }
