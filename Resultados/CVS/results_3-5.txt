@@ -1,0 +1,560 @@
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-1.dat
+Greedy cost: 10
+Optimal cost: 9
+Total nodes: 13291
+Time elapsed: 1.40048
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-1.dat
+Greedy cost: 10
+Optimal cost: 9
+Total nodes: 13291
+Time elapsed: 1.02517
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-2.dat
+Greedy cost: 15
+Optimal cost: 11
+Total nodes: 2791
+Time elapsed: 0.231359
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-2.dat
+Greedy cost: 15
+Optimal cost: 11
+Total nodes: 47967
+Time elapsed: 1.61371
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-3.dat
+Greedy cost: 13
+Optimal cost: 11
+Total nodes: 2002
+Time elapsed: 0.284795
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-3.dat
+Greedy cost: 13
+Optimal cost: 11
+Total nodes: 10024
+Time elapsed: 0.375601
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-4.dat
+Greedy cost: 6
+Optimal cost: 6
+Total nodes: 12
+Time elapsed: 0.010216
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-4.dat
+Greedy cost: 6
+Optimal cost: 6
+Total nodes: 12
+Time elapsed: 0.009557
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-5.dat
+Greedy cost: 16
+Optimal cost: 13
+Total nodes: 3982
+Time elapsed: 1.97464
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-5.dat
+Greedy cost: 16
+Optimal cost: 13
+Total nodes: 140184
+Time elapsed: 4.50772
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-6.dat
+Greedy cost: 15
+Optimal cost: 13
+Total nodes: 9539
+Time elapsed: 4.97164
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-6.dat
+Greedy cost: 15
+Optimal cost: 13
+Total nodes: 289249
+Time elapsed: 10.0423
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-7.dat
+Greedy cost: 7
+Optimal cost: 7
+Total nodes: 99
+Time elapsed: 0.056225
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-7.dat
+Greedy cost: 7
+Optimal cost: 7
+Total nodes: 99
+Time elapsed: 0.056893
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-8.dat
+Greedy cost: 14
+Optimal cost: 14
+Total nodes: 45037
+Time elapsed: 28.7362
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-8.dat
+Greedy cost: 14
+Optimal cost: 14
+Total nodes: 45037
+Time elapsed: 25.4786
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-9.dat
+Greedy cost: 16
+Optimal cost: 12
+Total nodes: 19149
+Time elapsed: 8.77896
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-9.dat
+Greedy cost: 16
+Optimal cost: 12
+Total nodes: 372311
+Time elapsed: 11.5103
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-10.dat
+Greedy cost: 13
+Optimal cost: 9
+Total nodes: 210
+Time elapsed: 0.157034
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-10.dat
+Greedy cost: 13
+Optimal cost: 9
+Total nodes: 6463
+Time elapsed: 0.250602
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-11.dat
+Greedy cost: 19
+Optimal cost: 15
+Total nodes: 28258
+Time elapsed: 19.6858
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-11.dat
+Greedy cost: 19
+Optimal cost: 15
+Total nodes: 783676
+Time elapsed: 24.4731
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-12.dat
+Greedy cost: 16
+Optimal cost: 12
+Total nodes: 931
+Time elapsed: 0.185637
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-12.dat
+Greedy cost: 16
+Optimal cost: 12
+Total nodes: 9648
+Time elapsed: 0.284113
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-13.dat
+Greedy cost: 19
+Optimal cost: 15
+Total nodes: 263209
+Time elapsed: 153.516
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-13.dat
+Greedy cost: 19
+Optimal cost: 15
+Total nodes: 6634704
+Time elapsed: 226.506
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-14.dat
+Greedy cost: 7
+Optimal cost: 7
+Total nodes: 231
+Time elapsed: 0.155869
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-14.dat
+Greedy cost: 7
+Optimal cost: 7
+Total nodes: 231
+Time elapsed: 0.154866
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-15.dat
+Greedy cost: 15
+Optimal cost: 12
+Total nodes: 43230
+Time elapsed: 15.0951
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-15.dat
+Greedy cost: 15
+Optimal cost: 13
+Total nodes: 987908
+Time elapsed: 31.9726
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-16.dat
+Greedy cost: 12
+Optimal cost: 9
+Total nodes: 1810
+Time elapsed: 0.354331
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-16.dat
+Greedy cost: 12
+Optimal cost: 9
+Total nodes: 13242
+Time elapsed: 0.445369
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-17.dat
+Greedy cost: 14
+Optimal cost: 12
+Total nodes: 4923
+Time elapsed: 3.34883
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-17.dat
+Greedy cost: 14
+Optimal cost: 12
+Total nodes: 143869
+Time elapsed: 4.48116
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-18.dat
+Greedy cost: 12
+Optimal cost: 8
+Total nodes: 222
+Time elapsed: 0.093608
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-18.dat
+Greedy cost: 12
+Optimal cost: 8
+Total nodes: 20648
+Time elapsed: 0.609186
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-19.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 271
+Time elapsed: 0.120637
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-19.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 271
+Time elapsed: 0.165785
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-20.dat
+Greedy cost: 12
+Optimal cost: 12
+Total nodes: 46
+Time elapsed: 0.165634
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-20.dat
+Greedy cost: 12
+Optimal cost: 12
+Total nodes: 46
+Time elapsed: 0.149862
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-21.dat
+Greedy cost: 11
+Optimal cost: 9
+Total nodes: 293
+Time elapsed: 0.177095
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-21.dat
+Greedy cost: 11
+Optimal cost: 9
+Total nodes: 9308
+Time elapsed: 0.394345
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-22.dat
+Greedy cost: 15
+Optimal cost: 9
+Total nodes: 236
+Time elapsed: 0.089322
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-22.dat
+Greedy cost: 15
+Optimal cost: 9
+Total nodes: 4737
+Time elapsed: 0.19774
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-23.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 5286
+Time elapsed: 2.90507
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-23.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 5286
+Time elapsed: 2.56818
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-24.dat
+Greedy cost: 12
+Optimal cost: 11
+Total nodes: 18037
+Time elapsed: 1.91045
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-24.dat
+Greedy cost: 12
+Optimal cost: 11
+Total nodes: 39311
+Time elapsed: 1.8468
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-25.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 225
+Time elapsed: 0.125409
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-25.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 225
+Time elapsed: 0.074092
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-26.dat
+Greedy cost: 13
+Optimal cost: 10
+Total nodes: 442
+Time elapsed: 0.186071
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-26.dat
+Greedy cost: 13
+Optimal cost: 10
+Total nodes: 20079
+Time elapsed: 0.672812
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-27.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 280
+Time elapsed: 0.149646
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-27.dat
+Greedy cost: 10
+Optimal cost: 10
+Total nodes: 280
+Time elapsed: 0.186776
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-28.dat
+Greedy cost: 14
+Optimal cost: 10
+Total nodes: 694
+Time elapsed: 0.32809
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-28.dat
+Greedy cost: 14
+Optimal cost: 10
+Total nodes: 19687
+Time elapsed: 0.662432
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-29.dat
+Greedy cost: 12
+Optimal cost: 11
+Total nodes: 845
+Time elapsed: 0.090494
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-29.dat
+Greedy cost: 12
+Optimal cost: 11
+Total nodes: 2203
+Time elapsed: 1.08657
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-30.dat
+Greedy cost: 10
+Optimal cost: 7
+Total nodes: 200
+Time elapsed: 0.132969
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-30.dat
+Greedy cost: 10
+Optimal cost: 7
+Total nodes: 5253
+Time elapsed: 0.216377
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-31.dat
+Greedy cost: 17
+Optimal cost: 13
+Total nodes: 8080
+Time elapsed: 2.1534
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-31.dat
+Greedy cost: 17
+Optimal cost: 13
+Total nodes: 266249
+Time elapsed: 8.23905
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-32.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 25
+Time elapsed: 0.025644
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-32.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 25
+Time elapsed: 0.025495
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-33.dat
+Greedy cost: 12
+Optimal cost: 10
+Total nodes: 24503
+Time elapsed: 1.46388
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-33.dat
+Greedy cost: 12
+Optimal cost: 10
+Total nodes: 39839
+Time elapsed: 1.24146
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-34.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 109
+Time elapsed: 0.083365
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-34.dat
+Greedy cost: 8
+Optimal cost: 8
+Total nodes: 109
+Time elapsed: 0.080873
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-35.dat
+Greedy cost: 11
+Optimal cost: 10
+Total nodes: 9727
+Time elapsed: 0.533004
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-35.dat
+Greedy cost: 11
+Optimal cost: 10
+Total nodes: 10189
+Time elapsed: 0.546807
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-36.dat
+Greedy cost: 13
+Optimal cost: 10
+Total nodes: 2507
+Time elapsed: 1.28279
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-36.dat
+Greedy cost: 13
+Optimal cost: 10
+Total nodes: 96809
+Time elapsed: 2.95357
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-37.dat
+Greedy cost: 17
+Optimal cost: 15
+Total nodes: 32041
+Time elapsed: 14.4637
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-37.dat
+Greedy cost: 17
+Optimal cost: 15
+Total nodes: 565954
+Time elapsed: 18.1596
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-38.dat
+Greedy cost: 6
+Optimal cost: 5
+Total nodes: 45
+Time elapsed: 0.020304
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-38.dat
+Greedy cost: 6
+Optimal cost: 5
+Total nodes: 158
+Time elapsed: 0.032235
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-39.dat
+Greedy cost: 12
+Optimal cost: 8
+Total nodes: 304
+Time elapsed: 0.097758
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-39.dat
+Greedy cost: 12
+Optimal cost: 8
+Total nodes: 6725
+Time elapsed: 0.253694
+
+------- A* Greedy -------
+Instance: ../Instancias/CVS/3-5/data3-5-40.dat
+Greedy cost: 10
+Optimal cost: 8
+Total nodes: 1144
+Time elapsed: 0.254555
+
+------- A* -------
+Instance: ../Instancias/CVS/3-5/data3-5-40.dat
+Greedy cost: 10
+Optimal cost: 8
+Total nodes: 5674
+Time elapsed: 0.28952
+
